@@ -1,0 +1,15 @@
+{
+  "name": "Freedomind",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["linkedin.js"],
+      "css": ["linkedin.css"]
+    }
+  ],
+  "permissions": ["tabs"]
+}

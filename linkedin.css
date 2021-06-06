@@ -1,0 +1,7 @@
+.global-nav__logo {
+  height: 0 !important;
+}
+
+.global-nav__logo-hoverable {
+  display: none !important;
+}
